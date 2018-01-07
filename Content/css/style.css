@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.wrap{
+    width:1000px;
+    margin:0 auto;
+}
+h2{
+    height:50px;
+    background:#eee;
+    line-height: 50px;
+    padding: 0 20px;
+    width:960px;
+}
+h2 span{
+    float: right;
+    font-size: 16px;
+    font-weight: 600;
+}
+#main{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+#main .bg{
+    width: 15px;
+    height: 15px;
+    border:1px solid #ccc;
+    background: #fff;
+}
+#main dl{
+    width:100%;
+    clear:both;
+    margin: 10px 0;
+}
+#main dl dt{
+    width:250px;
+    height:145px;
+    float: left;
+    margin-right:20px; }
+#main dl dd{
+    width:720px;
+    float: left;
+    padding: 0 30px;
+}
+#main dl dd h3,#main dl dd p,#main dl dd h4{
+    height:30px;
+    line-height: 30px;
+}
+#main dl dd h3 span,#main dl dd p span{
+    float: right;
+    font-size: 14px;
+    font-weight: 500;
+}
+#main dl dd p span input{
+    width:20px;
+}
+#main dl dd p span button{
+    width:20px;
+    height:20px;
+}
+#main dl dd h4 button{
+    float: right;
+    width:96px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+footer{
+    padding: 0 10px;
+    width:960px;
+    height:50px;
+    clear:both;
+    line-height: 50px;
+    background: #eee;
+}
+footer button{
+    width:98px;
+    height:30px;
+    float: right;
+    margin-top: 15px;
+}
+footer b input{
+    width:40px;
+}
+input{
+    text-align: center;
+}

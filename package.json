@@ -1,0 +1,11 @@
+{
+  "name": "zc1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC"
+}

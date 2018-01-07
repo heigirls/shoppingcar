@@ -1,0 +1,17 @@
+<div class='wrap'>
+    <h2><span>购物车</span>产品清单</h2>
+    <div id='main' ng-repeat="item in data">
+        <span ng-click="bgchange(item)" class="bg"></span>
+        <dl>
+            <dt><img src="{{item.img}}"></dt>
+            <dd>
+                <h3><span date="p">单价:￥{{item.pic}}</span>成功管理者</h3>
+                <p><span>数量：<button class='del' ng-click="dels(item)">-</button><input type="text" value='{{item.num}}'><button class='add' ng-click="adds(item)">+</button></span>￥{{item.pic}}</p>
+                <h4>赠《穿布鞋的马云》一本，年终送给管理者的福利</h4>
+            </dd>
+        </dl>				
+    </div>
+    <footer>
+        <button id='btn'>结算</button><b>您已准备购买<input type="text" id='num' value="0">本,学习总计<span>￥<input type="text" value='{{amount}}' id='p'></span></b>
+    </footer>
+</div>

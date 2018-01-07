@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "img": "../Content/images/4.jpg",
+        "pic": 10,
+        "num":1,
+        "pics": 10,
+        "flag": false
+    },
+    {
+        "id": 1,
+        "img": "../Content/images/5.jpg",
+        "pic": 10,
+        "num":1,
+        "pics": 10,
+        "flag": false
+    },
+    {
+        "id": 2,
+        "img": "../Content/images/6.jpg",
+        "pic": 10,
+        "num":1,
+        "pics": 10,
+        "flag": false
+    }
+]
